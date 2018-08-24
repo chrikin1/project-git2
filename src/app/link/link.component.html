@@ -1,0 +1,20 @@
+<form action="" class="search">
+  <div class="form-group">
+    <input type="text" id="search" class="form-control" placeholder="Search Now!" [(ngModel)]="name" name="username" (keyup)="findUser()">
+  </div>
+</form>
+<div id="Display">
+<div *ngIf="username" class="container-fluid">
+  <p style="color:whitesmoke">{{username.name}}</p>
+  <p><img src="{{username.avatar_url}}"></p>
+</div>
+
+
+<div class="panel-body" *ngFor="let repo of repos">
+  <p style="font-size: 30px">
+    {{repo.name}}
+    <a href="{{repo.html_url}}" class="btn btn-sm btn-info">Click To View</a>
+  </p>
+
+</div>
+</div>

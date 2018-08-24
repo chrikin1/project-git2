@@ -1,0 +1,10 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+p {
+    font-family: 'Sunflower', sans-serif;
+  color: aliceblue;
+  font-size: 80px;
+
+}
+#Display {
+    text-align: center;
+}
