@@ -12,7 +12,7 @@ export class ApiService {
     private Secret = "e9e1ab7639bb901db78db37f3762a75ee1fff356"
     constructor(private http:Http) {
     
-    // this.name="Benard18";
+    // this.name="chrikin1";
   }
   getUsername(){
     return this.http.get("https://api.github.com/users/" + this.name + "?client_id=" +
