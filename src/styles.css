@@ -2,4 +2,7 @@
 @import "~bootstrap/dist/css/bootstrap.css";
 body {
     background-color: darkolivegreen;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-block-end: 20px;
 }
