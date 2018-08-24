@@ -31,7 +31,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Running end-to-end tests
 
-Link to live site: <a href="https://chrikin1.github.io/project-git/">Project Git<a>
+Link to live site: <a href="https://chrikin1.github.io/project-git2/">Project Git2<a>
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 
