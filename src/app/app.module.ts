@@ -12,7 +12,7 @@ import { LinkComponent } from './link/link.component';
   declarations: [
     AppComponent,
     LinkComponent,
-    
+
   ],
   imports: [
     BrowserModule,
