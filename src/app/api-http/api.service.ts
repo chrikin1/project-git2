@@ -4,14 +4,11 @@ import { map } from "rxjs/operators";
 @Injectable({
   providedIn: 'root'
 })
-export class ApiService {
 
-  private name:string;
-    
     private ID = "6051dcf4774275c44572";
     private Secret = "7dc663c6bcba4d74ab544f264c87926fe6d6c76c"
     constructor(private http:Http) {
-    
+
     // this.name="chrikin1";
   }
   getUsername(){
@@ -26,4 +23,3 @@ export class ApiService {
     this.name=name;
   }
   }
-  
