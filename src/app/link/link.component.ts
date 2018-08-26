@@ -5,7 +5,8 @@ import { ApiService } from '../api-http/api.service';
 @Component({
   selector: 'app-link',
   templateUrl: './link.component.html',
-
+  styleUrls: ['./link.component.css'],
+  providers:[ApiService]
 })
 
 export class LinkComponent implements OnInit {
