@@ -5,8 +5,7 @@ import { ApiService } from '../api-http/api.service';
 @Component({
   selector: 'app-link',
   templateUrl: './link.component.html',
-  styleUrls: ['./link.component.css'],
-  providers:[ApiService]
+
 })
 
 export class LinkComponent implements OnInit {
@@ -19,11 +18,11 @@ export class LinkComponent implements OnInit {
   findUser() {
     this.apiService.updateUsername(this.name);
     this.apiService.getUsername().subscribe(username => {
-     
+
       this.username = username;
     });
     this.apiService.getRepos().subscribe(repos => {
-    
+
       this.repos= repos;
     })
   }
